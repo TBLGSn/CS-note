@@ -27,6 +27,6 @@ nav:
     - 1503: 1503.md
     - 1552: 1552.md
 theme:
+  name: material
   features:
     - navigation.tabs
-    name: material
