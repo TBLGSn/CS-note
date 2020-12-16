@@ -1,0 +1,30 @@
+site_name: CS-note
+# 文件目录
+docs_dir: leetcode
+# 导航
+nav:
+  - binarysearch:
+    - introduction: binarysearch.md
+    - 875: 875.md
+  - bubble:
+    - 1535: 1535.md
+  - hash:
+    - introduction: hash.md
+    - 560: 560.md
+    - 1161: 1161.md
+  - sort:
+    - 15: 15.md
+    - 56: 56.md
+    - 179: 179.md
+    - 220: 220.md
+    - 1481: 1481.md
+  - other:
+    - 11: 11.md
+    - 120: 120.md
+    - 167: 167.md
+    - 448: 448.md
+    - 1010: 1010.md
+    - 1503: 1503.md
+    - 1552: 1552.md
+
+theme: material
