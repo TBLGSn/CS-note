@@ -5,6 +5,7 @@ docs_dir: leetcode
 nav:
   - binarysearch:
     - introduction: binarysearch.md
+    - 378(经典): 378.md
     - 875: 875.md
   - bubble:
     - 1535: 1535.md
@@ -23,6 +24,7 @@ nav:
     - 973: 973.md
     - 1305: 1305.md
     - 1481: 1481.md
+    - 1508: 1508.md
     - 1509: 1509.md
     - 1561: 1561.md
     - 1647: 1647.md
@@ -42,10 +44,12 @@ nav:
     - 1509: 1509.md
     - 1288: 1288.md
     - 1647: 1647.md
+    - 1353: 1353.md
   - list:
     - 147: 147.md
   - tree:
     - 1305: 1305.md
+    - 1353: 1353.md
   - 双指针:
     - 19: 19.md
   - other:
