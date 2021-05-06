@@ -7,8 +7,6 @@ nav:
     - introduction: binarysearch.md
     - 378(经典): 378.md
     - 875: 875.md
-  - bubble:
-    - 1535: 1535.md
   - hash:
     - introduction: hash.md
     - 560: 560.md
@@ -27,6 +25,7 @@ nav:
     - 1481: 1481.md
     - 1508: 1508.md
     - 1509: 1509.md
+    - 1535: 1535.md
     - 1561: 1561.md
     - 1647: 1647.md
     - 1648: 1648.md
