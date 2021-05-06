@@ -1,42 +1,32 @@
 #include <algorithm>
 #include <deque>
 #include <map>
+#include <numeric>
 #include <queue>
 #include <set>
 #include <vector>
 using namespace std;
-/*
-*   0. 暴力法 ， 但未使用 有序这个条件
-*   1. a[0] + b[0] < a[1] + b[0], 利用有序这个条件，提前终止
-*   2. 实例三: 表明不能直接依靠 k 进行循环结束条件的判定
-*   3. a[0] + b[0]一定是最小的
-*/
-
+// 找到最小的连续字符串使得长度为  n - k
 class Solution {
-    typedef pair<int, int> value_type;
-    struct cmp{
-        bool  operator()(value_type a, value_type b) {
-            return a.first + a.second < b.first + b.second;
-        } 
-    };
 public:
-    vector<vector<int>> kSmallestPairs(vector<int>& nums1, vector<int>& nums2, int k) {
-       
-        vector<vector<int>> res;
+    int maxScore(vector<int>& nums, int k) {
+        int total = accumulate(nums.begin(), nums.end(), 0);
         
-        priority_queue<value_type, vector<value_type, cmp> > pq;
-        
-        for( const int a : nums1) {
-            for(const int b : nums2) {
-                pq.push({a, b});
-            }
+        int n = nums.size();
+        int len = n -k; // 当前区间的长度
+        if( len <= 0)  return total;
+        int sum = 0; // 当前区间的总和
+        for(int i = 0; i < len; ++i) {
+            sum += nums[i];
         }
-        k = min<int>( nums1.size() * nums2.size(), k);
-        while( k --) {
-            value_type tmp = pq.top();
-            res.push_back({tmp.first, tmp.second});
-            pq.pop();
+        int min_sum = sum;
+        int left = 0; 
+        for(int i = len; i < n; ++i) {
+            sum += nums[i];
+            sum -= nums[left];
+            min_sum = min(min_sum, sum);
+            left ++;
         }
-        return res;
+        return total - min_sum;
     }
 };
