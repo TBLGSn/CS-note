@@ -3,6 +3,8 @@ site_name: CS-note
 docs_dir: leetcode
 # 导航
 nav:
+  - Dynamic Programming:
+    - 3: 3.md
   - binarysearch:
     - introduction: binarysearch.md
     - 378(经典): 378.md
