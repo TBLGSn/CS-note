@@ -5,7 +5,7 @@ docs_dir: leetcode
 nav:
   - Dynamic Programming:
     - 3: 3.md
-    - 子序列:647: 647.md
+    - 647: 647.md
   - binarysearch:
     - introduction: binarysearch.md
     - 378(经典): 378.md
