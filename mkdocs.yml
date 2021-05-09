@@ -5,6 +5,7 @@ docs_dir: leetcode
 nav:
   - Dynamic Programming:
     - 62: 62.md
+    - 279: 279.md
     - 3: 3.md
     # 
     - 5: 5.md
