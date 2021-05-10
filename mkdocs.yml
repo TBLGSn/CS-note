@@ -4,6 +4,7 @@ docs_dir: leetcode
 # 导航
 nav:
   - Dynamic Programming:
+    - 523: 523.md
     - 62: 62.md
     - 300: 300.md
     - 279: 279.md
