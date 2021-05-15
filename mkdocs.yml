@@ -15,6 +15,7 @@ nav:
   - backtracking
     - introduction: backtracking.md
     - 17: 17.md
+    - 22(经典): 22.md
   - binarysearch:
     - introduction: binarysearch.md
     - 378(经典): 378.md
