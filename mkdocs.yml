@@ -12,6 +12,8 @@ nav:
     - 279: 279.md
     - 523: 523.md
     - 647: 647.md
+  - 回溯算法
+    - 17: 17.md
   - binarysearch:
     - introduction: binarysearch.md
     - 378(经典): 378.md
@@ -25,7 +27,6 @@ nav:
     - 15: 15.md
     - 56: 56.md
     - 179: 179.md
-    - 220: 220.md
     - 452: 452.md
     - 853: 853.md
     - 973: 973.md
@@ -70,6 +71,7 @@ nav:
   - 滑动窗口:
     - slidingWindow: sliding_Window.md
     - 3: 3.md
+    - 220: 220.md
     - 424: 424.md
     - 1438: 1438.md 
     - 1658: 1658.md
