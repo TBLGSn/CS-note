@@ -12,7 +12,8 @@ nav:
     - 279: 279.md
     - 523: 523.md
     - 647: 647.md
-  - 回溯算法
+  - backtracking
+    - introduction: backtracking.md
     - 17: 17.md
   - binarysearch:
     - introduction: binarysearch.md
