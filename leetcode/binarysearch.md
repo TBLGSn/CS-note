@@ -1,6 +1,6 @@
 # 二分查找
 
-    对于二分查找而言，其时间复杂度为 lg_n.
+    对于二分查找而言，其时间复杂度为 $lg_n$.
 
     其重要特征常体现为：“有序”，“有最大值与最小值”.
 
@@ -14,17 +14,16 @@
 # 参考代码 
 ```c++
     template <typename T> 
-    Rank binSearch(T* A, Rank lo, Rank hi) {
+    Rank binSearch(T* A, Rank lo, Rank hi, T e) {
         while(lo < hi) {
             Rank mid =(lo + hi) >>1;
-            if(e <A[mid]>) hi =mid;
-            else if(A[mid] <e) lo = mi +1;
+            if(e < A[mid]) hi = mid;
+            else if(A[mid] < e) lo = mi +1;
             else return mid; 
         }
-        return -1;
+        return -1; //没找到
     }
 ```
 
-# 经典例题
-    leetcode 
-    875
+# 解题思想
+剑指 Offer 53-I.在排序数组中查找元素I ，分别利用二分查找找到区间第一个和最后一个元素完成解题

@@ -23,6 +23,7 @@ nav:
     - introduction: binarysearch.md
     - 378(经典): 378.md
     - 875: 875.md
+    - 剑指 Offer 53 - I: 剑指 Offer 53 - I.md
   - hash:
     - introduction: hash.md
     - 560: 560.md
@@ -61,6 +62,7 @@ nav:
     - 1288: 1288.md
     - 1647: 1647.md
     - 1353: 1353.md
+    
   - list:
     - 147: 147.md
   - tree:
