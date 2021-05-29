@@ -3,23 +3,53 @@ site_name: CS-note
 docs_dir: leetcode
 # 导航
 nav:
+  - Dynamic Programming:
+    - 3: 3.md
+    - 5: 5.md
+    - 62: 62.md
+    - 91: 91.md
+    - 300: 300.md
+    - 279: 279.md
+    - 523: 523.md
+    - 647: 647.md
+  - backtracking
+    - introduction: backtracking.md
+    - 17: 17.md
+    - 22(经典): 22.md
+    - 39: 39.md
+    - 78: 78.md
+    - 79: 79.md
   - binarysearch:
     - introduction: binarysearch.md
+    - 287: 287.md
+    - 378(经典): 378.md
+    - 658.找到K个最接近的元素: 658.md
     - 875: 875.md
-  - bubble:
-    - 1535: 1535.md
+    - 1011. 在 D 天内送达包裹的能力: 1011.md
+    - 剑指 Offer 53 - I: 剑指 Offer 53 - I.md
+  - 快慢指针:
+    - 287: 287.md 
   - hash:
     - introduction: hash.md
     - 560: 560.md
     - 1161: 1161.md
   - sort:
+    - 排序: sort.md
     - 15: 15.md
     - 56: 56.md
     - 179: 179.md
-    - 220: 220.md
+    - 452: 452.md
+    - 853: 853.md
     - 973: 973.md
     - 1305: 1305.md
+    - 1452: 1452.md
     - 1481: 1481.md
+    - 1508: 1508.md
+    - 1509: 1509.md
+    - 1535: 1535.md
+    - 1561: 1561.md
+    - 1647: 1647.md
+    - 1648: 1648.md
   - 栈:
     - 503: 503.md
     - 739: 739.md
@@ -29,13 +59,35 @@ nav:
     - 1673: 1673.md
   - 堆:
     - 347: 347.md
-    - 1705：1705.md
+    - 373: 373.md
+    - 1705: 1705.md
   - 贪心算法:
+    - 55: 55.md
+    - 1509: 1509.md
     - 1288: 1288.md
+    - 1647: 1647.md
+    - 1353: 1353.md
+    
   - list:
     - 147: 147.md
+  - tree:
+    - 100: 100.md
+    - 101: 101.md
+    - 110: 110.md
+    - 404: 404.md
+    - 1305: 1305.md
+    - 1353: 1353.md
+    - 17.12: 17.12.md
   - 双指针:
     - 19: 19.md
+  - 滑动窗口:
+    - slidingWindow: sliding_Window.md
+    - 3: 3.md
+    - 220: 220.md
+    - 424: 424.md
+    - 1438: 1438.md 
+    - 1658: 1658.md
+    - 1423: 1423.md
   - other:
     - 11: 11.md
     - 120: 120.md
