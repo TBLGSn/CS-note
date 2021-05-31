@@ -18,7 +18,7 @@
         while(lo < hi) {
             Rank mid =(lo + hi) >>1;
             if(e < A[mid]) hi = mid;
-            else if(A[mid] < e) lo = mi +1;
+            else if(A[mid] < e) lo = mid +1;
             else return mid; 
         }
         return -1; //没找到
