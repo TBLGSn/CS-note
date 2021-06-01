@@ -12,6 +12,7 @@ nav:
     - 279: 279.md
     - 523: 523.md
     - 647: 647.md
+    - 718最长重复字符串: 718.md
   - backtracking
     - introduction: backtracking.md
     - 17: 17.md
@@ -27,6 +28,9 @@ nav:
     - 875: 875.md
     - 1011. 在 D 天内送达包裹的能力: 1011.md
     - 剑指 Offer 53 - I: 剑指 Offer 53 - I.md
+  - 字符串:
+    - introduction: string.md
+
   - 快慢指针:
     - 287: 287.md 
   - hash:
@@ -85,6 +89,7 @@ nav:
     - 3: 3.md
     - 220: 220.md
     - 424: 424.md
+    - 718最长重复字符串: 718.md
     - 1438: 1438.md 
     - 1658: 1658.md
     - 1423: 1423.md
