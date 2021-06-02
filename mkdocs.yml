@@ -84,6 +84,8 @@ nav:
     - 17.12: 17.12.md
   - 双指针:
     - 19: 19.md
+  - 并查集:
+    - 128.最长连续序列: 128.md
   - 滑动窗口:
     - slidingWindow: sliding_Window.md
     - 3: 3.md
