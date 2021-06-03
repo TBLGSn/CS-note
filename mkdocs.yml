@@ -13,7 +13,7 @@ nav:
     - 523: 523.md
     - 647: 647.md
     - 718最长重复字符串: 718.md
-  - backtracking
+  - backtracking:
     - introduction: backtracking.md
     - 17: 17.md
     - 22(经典): 22.md
@@ -105,6 +105,7 @@ nav:
     - 1010: 1010.md
     - 1503: 1503.md
     - 1552: 1552.md
+    
 theme:
   name: material
   features:
