@@ -66,6 +66,7 @@ nav:
     - 373: 373.md
     - 1705: 1705.md
   - 贪心算法:
+    - introduction: greedy.md
     - 55: 55.md
     - 984.不含 AAA 或 BBB 的字符串: 984.md
     - 1509: 1509.md
