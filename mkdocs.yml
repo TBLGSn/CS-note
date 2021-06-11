@@ -11,10 +11,9 @@ nav:
     - 300: 300.md
     - 279完全平方数: 279.md
     - 322(完全背包问题): 322.md
-    
     - 523: 523.md
     - 647: 647.md
-  - backtracking
+  - backtracking:
     - introduction: backtracking.md
     - 17: 17.md
     - 22(经典): 22.md
@@ -70,7 +69,6 @@ nav:
     - 1288: 1288.md
     - 1647: 1647.md
     - 1353: 1353.md
-    
   - list:
     - 147: 147.md
   - tree:
