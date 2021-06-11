@@ -13,6 +13,10 @@ nav:
     - 322(完全背包问题): 322.md
     - 523: 523.md
     - 647: 647.md
+<<<<<<< HEAD
+=======
+    - 718最长重复字符串: 718.md
+>>>>>>> 516954f367f649b045f2a8aaf46056fb1fd2073b
   - backtracking:
     - introduction: backtracking.md
     - 17: 17.md
@@ -28,6 +32,9 @@ nav:
     - 875: 875.md
     - 1011. 在 D 天内送达包裹的能力: 1011.md
     - 剑指 Offer 53 - I: 剑指 Offer 53 - I.md
+  - 字符串:
+    - introduction: string.md
+
   - 快慢指针:
     - 287: 287.md 
   - hash:
@@ -63,8 +70,13 @@ nav:
     - 373: 373.md
     - 1705: 1705.md
   - 贪心算法:
+    - introduction: greedy.md
     - 55: 55.md
+<<<<<<< HEAD
     - 714: 714.md
+=======
+    - 984.不含 AAA 或 BBB 的字符串: 984.md
+>>>>>>> 516954f367f649b045f2a8aaf46056fb1fd2073b
     - 1509: 1509.md
     - 1288: 1288.md
     - 1647: 1647.md
@@ -81,11 +93,14 @@ nav:
     - 17.12: 17.12.md
   - 双指针:
     - 19: 19.md
+  - 并查集:
+    - 128.最长连续序列: 128.md
   - 滑动窗口:
     - slidingWindow: sliding_Window.md
     - 3: 3.md
     - 220: 220.md
     - 424: 424.md
+    - 718最长重复字符串: 718.md
     - 1438: 1438.md 
     - 1658: 1658.md
     - 1423: 1423.md
@@ -97,6 +112,7 @@ nav:
     - 1010: 1010.md
     - 1503: 1503.md
     - 1552: 1552.md
+    
 theme:
   name: material
   features:
