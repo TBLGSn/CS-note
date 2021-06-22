@@ -9,10 +9,10 @@ nav:
     - 62: 62.md
     - 91: 91.md
     - 300: 300.md
-    - 279: 279.md
+    - 279完全平方数: 279.md
+    - 322(完全背包问题): 322.md
     - 523: 523.md
     - 647: 647.md
-    - 718最长重复字符串: 718.md
   - backtracking:
     - introduction: backtracking.md
     - 17: 17.md
@@ -68,13 +68,19 @@ nav:
   - 贪心算法:
     - introduction: greedy.md
     - 55: 55.md
+<<<<<<< HEAD
     - 402移除k位数字: 402.md
+=======
+<<<<<<< HEAD
+    - 714: 714.md
+=======
+>>>>>>> d41169eef3c7fc898fb46ec09acd7e407984ba57
     - 984.不含 AAA 或 BBB 的字符串: 984.md
+>>>>>>> 516954f367f649b045f2a8aaf46056fb1fd2073b
     - 1509: 1509.md
     - 1288: 1288.md
     - 1647: 1647.md
     - 1353: 1353.md
-    
   - list:
     - 147: 147.md
   - tree:
